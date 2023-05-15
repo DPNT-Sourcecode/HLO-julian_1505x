@@ -7,7 +7,8 @@ public class HelloSolution {
         if (friendName.startsWith("x")) {
             return "no way!";
         } else {
-            return "Hello, "+friendName+"!";
+            return "Hello, World!";
         }
     }
 }
+
