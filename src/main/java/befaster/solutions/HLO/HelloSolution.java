@@ -4,6 +4,11 @@ import befaster.runner.SolutionNotImplementedException;
 
 public class HelloSolution {
     public String hello(String friendName) {
-        throw new SolutionNotImplementedException();
+        if (friendName.startsWith("x")) {
+            return "no way!";
+        } else {
+            return "Hello, World!";
+        }
     }
 }
+
